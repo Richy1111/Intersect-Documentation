@@ -26,8 +26,8 @@ Creating projectiles are done via the `Projectile Editor` under the `Game Editor
 
 - *Name*: Allows you to give your projectile a name.
 - *Folder*: Clicking on the + next to this field will allow you to create a folder in the projectile list for organization
-- *Speed (ms)*: Allows you to set the speed of the projectile in milliseconds. 1000 (ms) = 1 second.
-- *Spawn Delay (ms)*: Allows you to set a spawn delay between the interaction and animation.
+- *Speed (ms)*: Allows you to set the speed in milliseconds which is the time it takes the projectile to travel the range specified. 1000 (ms) = 1 second.
+- *Spawn Delay (ms)*: Allows you to set the time between each 'wave' which is defined by quantity.
 - *Quantity*: Allows you to set a quantity of how many projectile shot waves are being used.
 - *Range*: Allows you to set a range in tiles for how far the projectile will travel.
 - *Knockback*: Allows you to set a knockback by tile. When a projectile hits an opponent, it can knock them backward.
@@ -38,7 +38,8 @@ Creating projectiles are done via the `Projectile Editor` under the `Game Editor
 ![Projectile Spawn](https://github.com/AscensionGameDev/Intersect-Documentation/assets/72468758/44d761e2-1357-4593-b7c3-d8f1ef6fed7a)
 
 > This allows you to set a projectiles path. Clicking on the red arrows will make them green in which the projectile will be shot in.
-> This current screen shot only enabled a one side shot. If all of the arrows in the square is green, it will shoot in all directions.
+> This current screen shot orientation will rotate based on where the player is facing. You configure the projectile assuming the player is facing north/up.
+> When selecting more projectile spawns, it allows the player to shoot in multiple directions.
 
 ### Animations
 
